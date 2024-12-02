@@ -1081,6 +1081,13 @@ button a:hover {
   color: #1C1C1C;
 }
 
+.box-captcha {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  transform: scale(0.84);
+}
+
 /*      Media Queries   */
 @media screen and (-ms-high-contrast: active) {
   #subscribeWrapper .site-content-inner form input {
